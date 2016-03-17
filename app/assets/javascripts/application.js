@@ -17,7 +17,6 @@
 
 $(document).ready(function(){
   var dolar = $("#dolar").text();
-  dolar = "3.59";
 
   var array ={ "Alfabeto": [
     { "letra": "&", "valor": "0"},
