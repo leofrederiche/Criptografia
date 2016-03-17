@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cripto</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+
+  <!-- Importando Angular.js -->
+  <script src="angular.min.js"></script>
+  <%= javascript_include_tag 'angular', 'data-turbolinks-track' => true %>
+
+  <!-- Importando Jquery -->
+  <script src="jquery-2.1.4.min.js"></script>
+  <%= javascript_include_tag 'jquery-2.1.4', 'data-turbolinks-track' => true %>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'alfabeto', 'data-turbolinks-track' => true %>
+</html>
